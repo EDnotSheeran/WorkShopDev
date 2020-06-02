@@ -1,0 +1,29 @@
+{
+  "name": "workshopdev",
+  "version": "1.0.0",
+  "description": "WorkShopDev Roketseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDnotSheeran/WorkShopDev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EDnotSheeran/WorkShopDev/issues"
+  },
+  "homepage": "https://github.com/EDnotSheeran/WorkShopDev#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

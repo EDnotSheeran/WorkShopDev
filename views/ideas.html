@@ -1,0 +1,33 @@
+{% extends "template.html" %}
+
+{% set bodyID = "page-ideas" %}
+
+{% block title %}
+    <title>Ideas - Casa Criativa</title>
+{% endblock %}
+
+{% block content %}
+    <header>
+        <a href="/">
+            <img src="/logo.png" alt="logo">
+        </a>
+        <nav>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="#">Ideas</a></li>
+            <li><a class="button" onclick="toggleHide('#modal')">Nova Idea</a></li>
+        </nav>
+    </header>
+    <section id="title">
+        <p>em exibição</p>
+        <h1>Ideas</h1>
+    </section>
+    <main>
+        <section id="ideas">
+            {% include "list_ideas.html" %}
+        </section>
+    </main>
+    <footer>
+        Com ♥️ <a target="_blank" href="http://rocketseat.com.br">Rocketseat</a>
+    </footer>
+{% endblock %}
+
